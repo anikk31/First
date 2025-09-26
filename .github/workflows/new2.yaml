@@ -3,22 +3,18 @@ on: [push]
 
 jobs: 
   head-massage:
-    runs-on: ubuntu:latest
-      
+    runs-on: ubuntu-latest
     steps:
-       - name: "oiling"
-       - run:  echo "process started"
-       - name: "champi"
-       - run: echo "process started"
+      - name: "Oiling"
+        run: echo "Process started"
+      - name: "Champi"
+        run: echo "Process started"
       
   thigh-massage:
-    runs-on: ubuntu:latest
-    
+    runs-on: ubuntu-latest
     steps:
-       - name: "wear shorts"
-       - run: echo "done i am in shorts"
-       - name: "oiling started"
-       - run: echo "mza aagya"
-       
-    
- 
+      - name: "Wear shorts"
+        run: echo "Done, I am in shorts"
+      - name: "Oiling started"
+        run: echo "Mza aagya"
+
