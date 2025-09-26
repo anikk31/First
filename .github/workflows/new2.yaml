@@ -1,0 +1,24 @@
+name: massage2
+on: [push]
+
+jobs: 
+  head-massage:
+    runs-on: ubuntu:latest
+    run: echo "aagye head masssage k liye"
+    steps:
+       - name: "oiling"
+       - run:  echo "process started"
+       - name: "champi"
+       - run: echo "process started"
+      
+  thigh-massage:
+    runs-on: ubuntu:latest
+    run: echo "aagye krwane"
+    steps:
+       - name: "wear shorts"
+       - run: echo "done i am in shorts"
+       - name: "oiling started"
+       - run: echo "mza aagya"
+       
+    
+ 
