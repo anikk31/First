@@ -4,7 +4,7 @@ on: [push]
 jobs: 
   head-massage:
     runs-on: ubuntu:latest
-    run: echo "aagye head masssage k liye"
+      
     steps:
        - name: "oiling"
        - run:  echo "process started"
@@ -13,7 +13,7 @@ jobs:
       
   thigh-massage:
     runs-on: ubuntu:latest
-    run: echo "aagye krwane"
+    
     steps:
        - name: "wear shorts"
        - run: echo "done i am in shorts"
